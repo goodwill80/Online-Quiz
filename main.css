@@ -1,0 +1,88 @@
+body {
+  background-image: url('http://deskbg.com/s3/wpp/0/287/black-and-white-dog-desktop-background.jpg');
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+#live{
+  color: maroon;
+}
+
+#answers{
+  width: 30%;
+  margin: 20px auto;
+  padding: 5px;
+  background: none;
+}
+
+#score {
+  color: maroon;
+}
+
+#board {
+  height: 250px;
+  width: 30%;
+  padding: 0px;
+  background: none;
+  margin: auto;
+}
+
+#player1, #player2, #score1, #score2 {
+  border-radius: 15px;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  height: 30px;
+  width: 40%;
+  background-color: yellow;
+  display:inline-block;
+  justify-content:center;
+  align-items:center;
+  margin: auto;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
+#reset{
+  border-radius: 20px;
+  height: 5%;
+  width: 10%;
+  background-color: green;
+  margin: 0 auto;
+  font-size: 25px;
+  text-align: center;
+  color: maroon;
+}
+
+#question {
+  border-radius: 20px;
+  height: 130px;
+  width: 50%;
+  background-color: #D7E4EC;
+  margin: 20px auto;
+  padding: 30px;
+  font-size: 35px;
+  text-align: justify;;
+}
+
+#true, #false {
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  height: 30px;
+  width: 40%;
+  background-color: green;
+  display:inline-block;
+  justify-content:center;
+  align-items:center;
+  margin-left: 13px;
+}
