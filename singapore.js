@@ -11,7 +11,7 @@
 console.log('start');
 
 $(document).ready(function(){
-});
+
 
 //Step 1 : Contructor to create question objects consist of (questions, choices and anwsers)
   function Question (question, choices, correctAnswer) {
@@ -215,3 +215,5 @@ resetButton.click(function(){
 //To shuffle followed by the displayed of messages accoding to players clicks.
 shuffle(quiz.questions);
 updateDisplay();
+
+});
