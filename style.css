@@ -1,0 +1,109 @@
+body {
+  background: #151E28;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+#live{
+  color: white;
+  text-align: center;
+}
+
+#answers{
+  width: 100%;
+  margin: 0px auto;
+  padding: 20px;
+  background: none;
+}
+
+#score {
+  color: maroon;
+}
+
+#board {
+  padding: 0px;
+  height: 100%;
+  width: 60%;
+  background: none;
+  margin: auto;
+}
+
+#player1, #player2, #score1, #score2 {
+  background-color: #FFFDD0;
+  color: gray;
+  display:inline-block;
+  float: left;
+  height: 30px;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+}
+
+#score1, #score2 {
+  height: 60px;
+  /*text-align: center;*/
+  vertical-align:middle;
+  font-size: 40px;
+}
+
+
+
+#question {
+  border-radius: 20px;
+  height: 200px;
+  width: 100%;
+  background-color: #D7E4EC;
+  color: gray;
+  /*margin: 20px auto;*/
+  padding: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+#true, #false {
+  background-color: #F6A2AD;
+  margin: 5px auto;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 30%;
+  height: 30%;
+  padding: 10px;
+
+}
+
+#true{
+background-color: #40E0D0;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.break {
+  height: 150px;
+}
+
+.reset {
+  width: 100%;
+  text-align: center;
+}
+
+#reset {
+  background: red;
+  border-radius: 5px;
+}
+
+#description{
+  text-align: center;
+  color: #FCEE89;
+}

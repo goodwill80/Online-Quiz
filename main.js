@@ -11,7 +11,7 @@
 console.log('start');
 
 $(document).ready(function(){
-});
+
 
 //Step 1 : Contructor to create question objects consist of (questions, choices and anwsers)
   function Question (question, choices, correctAnswer) {
@@ -22,16 +22,16 @@ $(document).ready(function(){
 
 //Step 2 : Using the constructor above, i create a database of 15 questions with choices and answers stored in each object.
 // Each question will come with 2 choices; true or false, and answers to each question will be defined as either 0 or 1 which will represent the  buttons and will be used to determine if players have answered the question correctly, how many points each player received and the display msg to be shown after game is over.
-  var question0 = new Question('A domesticated dog can live between 10 to 20 years.', ['True', 'False'], 0);
-  var question1 = new Question('Normal adult dogs have 50 teeths?', ['True', 'False'], 1);
-  var question2 = new Question('A poodle is ideal for owners who are sensitive to fur.', ['True', 'False'], 0);
-  var question3 = new Question('Poodle is one of the most intelligent dog breeds', ['True', 'False'], 0);
-  var question4 = new Question('Singapore keep its stray dog population in SPCA.', ['True', 'False'], 0);
+  var question0 = new Question('Lightning never strikes in the same place twice.', ['True', 'False'], 1);
+  var question1 = new Question('If you cry in space the tears just stick to your face.', ['True', 'False'], 0);
+  var question2 = new Question('If you cut an earthworm in half, both halves can regrow their body.', ['True', 'False'], 1);
+  var question3 = new Question('Humans can distinguish between over a trillion different smells.', ['True', 'False'], 0);
+  var question4 = new Question('Adults have fewer bones than babies do..', ['True', 'False'], 0);
   var question5 = new Question('Chocolates are healthy for dogs.', ['True', 'False'], 1);
-  var question6 = new Question('Dog gloomers in Singapore need a license.', ['True', 'False'], 1);
-  var question7 = new Question('Pittbulls are banned in Singapore.', ['True', 'False'], 0);
-  var question8 = new Question('Golden retriever is commonly breed for protection purpose.', ['True', 'False'], 1);
-  var question9 = new Question('Rat terrier is originally a hunting breed', ['True', 'False'], 0);
+  var question6 = new Question('Napoleon Bonaparte was extremely short.', ['True', 'False'], 1);
+  var question7 = new Question('Goldfish only have a memory of three seconds.', ['True', 'False'], 1);
+  var question8 = new Question('There are more cells of bacteria in your body than there are human cells.', ['True', 'False'], 0);
+  var question9 = new Question('Your fingernails and hair keep growing after you die.', ['True', 'False'], 1);
   var question10 = new Question(' The jaws of pit bulls are anatomically different from those of other dogs so that they can lock shut when they fight.', ['True', 'False'], 0);
   var question11 = new Question('Purebred dogs are *always* less healthy than mutts.', ['True', 'False'], 0);
   var question12 = new Question(' The poodle originated in France.',['True', 'False'], 0);
@@ -157,7 +157,7 @@ $(document).ready(function(){
 //Step 5
 //Defining JQuery variables for DOM
   var questionBoard = $('#question');
-  var button = $('.button');
+  var button = $('.waves-effect');
   var trueButton = $('#true');
   var falseButton = $('#false');
   var player1Score = $('#score1');
@@ -215,3 +215,5 @@ resetButton.click(function(){
 //To shuffle followed by the displayed of messages accoding to players clicks.
 shuffle(quiz.questions);
 updateDisplay();
+
+});
