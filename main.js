@@ -121,9 +121,11 @@ $(document).ready(function(){
       } else if ((quiz.currentQuestion % 2 !== 0)) {
         quiz.player2Points++;
       }
+        // $("#live").text("correct!");
     }
     if (input !== correctAnswer()) {
       var x = true;
+      // $("#live").text("false");
     }
     quiz.currentQuestion++;
     if (currentQuestion() === numberOfQuestions() - 1) {
